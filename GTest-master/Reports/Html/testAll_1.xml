@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="1" disabled="0" errors="0" timestamp="2015-05-15T13:34:33" time="0.001" name="AllTests">
+  <testsuite name="MyAppTestSuite" tests="13" failures="1" disabled="0" errors="0" time="0">
+    <testcase name="myapp_task_should_return_correct_delay_for_one_element" status="run" time="0" classname="MyAppTestSuite">
+      <failure message="../src/helloc_testsuite.cpp:112&#x0A;Value of: myapp_task()&#x0A;  Actual: 10&#x0A;Expected: 0" type=""><![CDATA[../src/helloc_testsuite.cpp:112
+Value of: myapp_task()
+  Actual: 10
+Expected: 0]]></failure>
+    </testcase>
+    <testcase name="myapp_task_should_return_correct_delay_for_two_elements" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="get_average_should_return_zero_on_empty_filter" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="addFirstFilterValAddsVal" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="addFirstReturnsCorrectAverage" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="addTwoValuesReturnsCorrectAverage" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="get_average_should_return_average_of_full_filter" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="get_average_should_return_average_of_wrapped_filter" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="addFirstFilterValIncsWriteIdx" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="addFilterValWrapsWriteIdx" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="addFilterValUpdatesReadIndex" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="addFilterValWrapsReadIndex" status="run" time="0" classname="MyAppTestSuite" />
+    <testcase name="addFilterValGivesCorrectLen" status="run" time="0" classname="MyAppTestSuite" />
+  </testsuite>
+</testsuites>
