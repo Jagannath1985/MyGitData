@@ -66,6 +66,13 @@ TEST_F(LPC_CRC, CRC_8_32Bit_CCITTPoly) {
 	ASSERT_EQ((1+2+3+4+5+6+7)/MAX_ITEMS, myapp_get_average1());
 }
 
+TEST_F(LPC_CRC, CRC_8_32Bit_CCITTPoly111) {
+	for(int i = 0; i < BUFFER_SIZE; i++){
+		filter_add1(i);
+	}
+	ASSERT_EQ((1+2+3+4+5+6+7)/MAX_ITEMS, myapp_get_average1());
+}
+
 
 /// ....test buffer operations...
 
