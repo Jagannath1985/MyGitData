@@ -67,7 +67,7 @@ TEST_F(LPC_CRC, CRC_8_32Bit_CCITTPoly) {
 }
 
 
-TEST_F(LPC_CRC, CRC_8_32Bit_CCITTPoly232323232) {
+TEST_F(LPC_CRC, CRC_8_32Bit_CCITTPoly123gggg) {
 	for(int i = 0; i < BUFFER_SIZE; i++){
 		filter_add1(i);
 	}
