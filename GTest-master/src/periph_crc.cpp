@@ -66,14 +66,22 @@ TEST_F(LPC_CRC, CRC_8_32Bit_CCITTPoly) {
 	ASSERT_EQ((1+2+3+4+5+6+7)/MAX_ITEMS, myapp_get_average1());
 }
 
+<<<<<<< HEAD
 TEST_F(LPC_CRC, CRC_8_32Bit_CCITTPoly1111) {
+=======
+
+TEST_F(LPC_CRC, CRC_8_32Bit_CCITTPoly123gggg) {
+>>>>>>> 0fb1c094e24c77401a7249d8e781150a3ccab246
 	for(int i = 0; i < BUFFER_SIZE; i++){
 		filter_add1(i);
 	}
 	ASSERT_EQ((1+2+3+4+5+6+7)/MAX_ITEMS, myapp_get_average1());
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0fb1c094e24c77401a7249d8e781150a3ccab246
 /// ....test buffer operations...
 
 

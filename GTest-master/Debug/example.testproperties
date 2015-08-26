@@ -1,6 +1,0 @@
-tests=[{"enabled":true,"owner":"shushu","testgroup":"A","testcase":"addFilterValWrapsWriteIdx"},{"enabled":false,"owner":"shushu","testgroup":"A","testcase":"addFilterValUpdatesReadIndex"}]
-enableField=enabled
-groupBy=testgroup
-fieldSeparator=.
-showFields=testsuite,testcase
-multiplicityField=multiplicity

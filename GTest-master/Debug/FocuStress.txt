@@ -1,1 +1,0 @@
-TestType=LPC_ADC, LPC_MRT, LPC_ADC
