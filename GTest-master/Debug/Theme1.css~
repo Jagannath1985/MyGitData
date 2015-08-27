@@ -14,3 +14,7 @@
     margin: 10px 0 -5px 0px; }
 #top-panel td > a img {
       display: none; }
+
+#jenkins-head-icon{
+    background-image:url("pic.png")
+}

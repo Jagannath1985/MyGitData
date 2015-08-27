@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ErrorCodeRecord>
+  <ErrorCode ErrorID="65537_CLOCK">
+    <ErrorMessage>Clock rate value mis-match with read clock rate value</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_CLOCK">
+    <ErrorMessage>Clock source value mis-match with read clock source value</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="196609_CLOCK">
+    <ErrorMessage>Clock divider value mis-match with read clock divider value</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="262145_CLOCK">
+    <ErrorMessage>Fail to enable peripheral clock</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="327681_CLOCK">
+    <ErrorMessage>Fail to disable peripheral clock</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="393217_CLOCK">
+    <ErrorMessage>Fail to enable RTC clock oscillator</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="458753_CLOCK">
+    <ErrorMessage>Fail to disable RTC clock oscillator</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="65537_TIMER">
+    <ErrorMessage>Timer Interrupt Not Generated</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_TIMER">
+    <ErrorMessage>Timer Interrupt Flag not Clear</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="196609_TIMER">
+    <ErrorMessage>Timer Prescaler Read Error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="262145_TIMER">
+    <ErrorMessage>Timer Counter Read Error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="327681_TIMER">
+    <ErrorMessage>Timer External Match Pin Read Error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="393217_TIMER">
+    <ErrorMessage>Timer DeInitialization Fail</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="458753_TIMER">
+    <ErrorMessage>Timer Capture Read Error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="65537_CRC">
+    <ErrorMessage>Software calculated CRC and Hardware engine Generated CRC mismatch</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_CRC">
+    <ErrorMessage>CRC seed value read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="196609_CRC">
+    <ErrorMessage>CRC mode value read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="65537_GPIO">
+    <ErrorMessage>GPIO Byte Pin register read/write error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_GPIO">
+    <ErrorMessage>GPIO Direction register read/write error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="196609_GPIO">
+    <ErrorMessage>Fail to Deinit GPIO</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="262145_GPIO">
+    <ErrorMessage>GPIO mask register read/write error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="327681_GPIO">
+    <ErrorMessage>GPIO Pin register read/write error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="393217_GPIO">
+    <ErrorMessage>GPIO Masked Port register read/write error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="458753_GPIO">
+    <ErrorMessage>GPIO Set register read/write error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="524289_GPIO">,
+    <ErrorMessage>GPIO Clear register read/write error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="589825_GPIO">
+    <ErrorMessage>GPIO Toggle register read/write error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="65537_GPIOGP">
+    <ErrorMessage>GPIO Group interrupt not generated</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_GPIOGP">
+    <ErrorMessage>Fail to clear GPIO Group interrupt flag</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="196609_GPIOGP">
+    <ErrorMessage>Fail to disable GPIO Group interrupt</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="262145_GPIOGP">
+    <ErrorMessage>Unexpected GPIO Group interrupt generated</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="65537_IOCON">
+    <ErrorMessage>IO_Control_Pins read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_IOCON">
+    <ErrorMessage>Set_IO_Control_Pins read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="196609_IOCON">
+    <ErrorMessage>Set_All_IO_Control_Pins read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="65537_MBOX">
+    <ErrorMessage>Error to read the data value from the mailbox for M4</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_MBOX">
+    <ErrorMessage>Error to read the data value from the mailbox for M0</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="196609_MBOX">
+    <ErrorMessage>Error to read the data bits from the mailbox for M4</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="262145_MBOX">
+    <ErrorMessage>Error to read the data bits from the mailbox for M0</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="327681_MBOX">
+    <ErrorMessage>Error to read the data value from the mutex</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="393217_MBOX">
+    <ErrorMessage>Error to clear the value from the mailbox for M4</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="458753_MBOX">
+    <ErrorMessage>Error to clear the value from the mailbox for M0</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="65537_INMUX">
+    <ErrorMessage>INMUX pin select read  error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_INMUX">
+    <ErrorMessage>INMUX DMA target read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="196609_INMUX">
+    <ErrorMessage>INMUX DMA output mux read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="262145_INMUX">
+    <ErrorMessage>INMUX set frequency read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="327681_INMUX">
+    <ErrorMessage>INMUX set frequency measurement target clock read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="65537_RIT">
+    <ErrorMessage>RIT interrupt flag reset error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_RIT">
+    <ErrorMessage>RIT counter value read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="262145_RIT">
+    <ErrorMessage>RIT PeriodicTick error</ErrorMessage>
+  </ErrorCode>
+
+  <ErrorCode ErrorID="65537_SYSCON">
+    <ErrorMessage>syscon part id read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="131073_SYSCON">
+    <ErrorMessage>syscon version id1 read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="196609_SYSCON">
+    <ErrorMessage>syscon user flash mode read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="262145_SYSCON">
+    <ErrorMessage>syscon EnableWakeup read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="327681_SYSCON">
+    <ErrorMessage>syscon DisableWakeup read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="393217_SYSCON">
+    <ErrorMessage>syscon Enable_Disable APB bridge read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="458753_SYSCON">
+    <ErrorMessage>syscon Fifo_Enable status read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="524289_SYSCON">
+    <ErrorMessage>syscon Fifo_disable status read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="589825_SYSCON">
+    <ErrorMessage>syscon System tick timer calibration read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="655361_SYSCON">
+    <ErrorMessage>syscon flash memory access time in clocks read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="720897_SYSCON">
+    <ErrorMessage>syscon power up read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="786433_SYSCON">
+    <ErrorMessage>syscon power down read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="851969_SYSCON">
+    <ErrorMessage>syscon watchdog target frequency read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="917505_SYSCON">
+    <ErrorMessage>syscon watchdog timer reset read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="983041_SYSCON">
+    <ErrorMessage>syscon por reset read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="1048577_SYSCON">
+    <ErrorMessage>syscon bod reset read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="1114113_SYSCON">
+    <ErrorMessage>syscon watchdog reset source read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="1179649_SYSCON">
+    <ErrorMessage>syscon nmi enable status read error</ErrorMessage>
+  </ErrorCode>
+  <ErrorCode ErrorID="1245185_SYSCON">
+    <ErrorMessage>syscon nmi disable status read error</ErrorMessage>
+  </ErrorCode>
+</ErrorCodeRecord>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

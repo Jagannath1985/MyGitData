@@ -58,15 +58,6 @@ TEST_F(LPC_MRT, MRT_StopTim0_OnseShotMode_LD1) {
     EXPECT_EQ(15, myapp_task());
 }
 
-
-TEST_F(LPC_MRT, MRT_StopTim0_OnseShotMode_LD1123) {
-	fake_register = 10;
-	myapp_task();
-	fake_register = 20;
-    EXPECT_EQ(15, myapp_task());
-}
-
-
 /*TEST_F(LPC_MRT, get_average_should_return_zero_on_empty_filter) {
 	ASSERT_EQ(10, myapp_get_average());
 }
