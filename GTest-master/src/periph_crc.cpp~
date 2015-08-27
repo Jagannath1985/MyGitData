@@ -47,7 +47,7 @@ class LPC_CRC : public testing::Test
 };
 
 
-TEST_F(LPC_CRC, CRC_1_16Bit_CCITTPoly333) {
+TEST_F(LPC_CRC, CRC_1_16Bit_CCITTPoly) {
 	fake_register1 = 10;
     EXPECT_EQ(0, myapp_task1());
 }
